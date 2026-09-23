@@ -1,4 +1,4 @@
-﻿annotated-doc==0.0.5
+annotated-doc==0.0.5
 annotated-types==0.8.0
 anyio==4.15.1
 click==8.5.0
@@ -11,3 +11,13 @@ starlette==1.6.0
 typing-inspection==0.4.4
 typing_extensions==4.16.0
 uvicorn==0.52.4
+
+# --- Day 3 additions: auth, db, hashing, testing ---
+sqlalchemy==2.0.36
+passlib==1.7.4
+bcrypt==4.0.1
+python-jose[cryptography]==3.3.0
+python-dotenv==1.0.1
+email-validator==2.2.0
+pytest==8.3.4
+httpx==0.28.1
